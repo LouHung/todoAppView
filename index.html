@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <div class="grid app-container">
+            <!-- header -->
+            <div class="header-todoapp">
+                <h2 class="title">
+                    Todo App
+                </h2>
+                <div class="insert-place-container">
+                    <span class="insert-place__input">
+                        <input class="insert-place__input_content" type="text" placeholder="Add your new task">
+                    </span>
+                    <span class="insert-place-btn"><i class="fas fa-plus-square"></i></span>
+                    <div class="edit-place-block">
+                        <span class="insert-place-btn insert-place-btn__confirm"><i class="fas fa-check-square"></i></span>
+                        <span class="insert-place-btn insert-place-btn__cancel"><i class="fas fa-window-close"></i></span>
+
+                    </div>
+                </div>
+            </div>
+            <!-- end header -->
+          <!-- body -->
+            <ul class="body-tasks-container">
+               
+            </ul>
+          <!-- end body -->
+          <!-- footer -->
+            <div class="footer-todoapp">
+                <span class="todoapp-num-task">You have <p class='num-tasks'>4</p> pending tasks</span>
+                <span class= "todoapp-clear-btn-container">
+                    <span class="todoapp-clear-btn">Clear All</span>
+                </span>
+            </div>
+          <!-- end footer -->
+
+        </div>
+    </div>
+
+
+<script src="./js/index.js"></script>
+</body>
+</html>
